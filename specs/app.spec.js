@@ -1,6 +1,6 @@
 import { nameIsValid, fullTrim, getTotal } from '../src/app.js'
 
-describe('nameIsValid', () => {
+describe.skip('nameIsValid', () => {
     it('function is defined' , () => {
         expect(nameIsValid()).toBeDefined()
     })
@@ -24,7 +24,7 @@ describe('nameIsValid', () => {
     })
 })
 
-describe('fullTrim', () => {
+describe.skip('fullTrim', () => {
     it('function is defined' , () => {
         expect(fullTrim()).toBeDefined()
     })
@@ -49,7 +49,7 @@ describe('fullTrim', () => {
 
 })
 
-describe('getTotal', () => {
+describe.skip('getTotal', () => {
     it('function is defined' , () => {
         expect(getTotal()).toBeDefined()
     })
